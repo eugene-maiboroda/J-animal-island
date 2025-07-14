@@ -50,7 +50,9 @@ You can configure:
 
 ### How to Run
 
-1. Clone the repository `https://github.com/eugene-maiboroda/J-animal-island.git`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/eugene-maiboroda/J-animal-island.git
 2. Open in IntelliJ IDEA or any IDE with Java 17+ support
 3. Run `Main.java`
 4. Observe console output of island state over time
