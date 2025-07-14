@@ -50,7 +50,7 @@ You can configure:
 
 ### How to Run
 
-1. Clone the repository
+1. Clone the repository ```https://github.com/eugene-maiboroda/J-animal-island.git```
 2. Open in IntelliJ IDEA or any IDE with Java 17+ support
 3. Run `Main.java`
 4. Observe console output of island state over time
@@ -64,6 +64,7 @@ Every simulation tick prints:
 - Number of plants
 - Dead/alive statistics
 
+```
 *** Day 25-th ***
 
 🐗 - 26
@@ -81,7 +82,7 @@ Every simulation tick prints:
 🦅 - 93
 🐃 - 100
 🐁 - 111
-
+```
 
 ### How to Control Simulation Speed
 
