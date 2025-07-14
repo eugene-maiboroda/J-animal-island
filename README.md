@@ -52,7 +52,7 @@ You can configure:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/eugene-maiboroda/J-animal-island.git
+git clone https://github.com/eugene-maiboroda/J-animal-island.git```
 2. Open in IntelliJ IDEA or any IDE with Java 17+ support
 3. Run `Main.java`
 4. Observe console output of island state over time
@@ -90,7 +90,7 @@ Every simulation tick prints:
 
 If you want to adjust the speed of the console output and synchronize it with the simulation pace (days advancing), modify the following two places in your code:
 
-#### 1. `GameSettings.java`: change the delay between ticks
+####1. GameSettings.java: change the delay between ticks
 
 ```java
 public static final int STAT_PERIOD = 100; // milliseconds
@@ -98,7 +98,7 @@ public static final int STAT_PERIOD = 100; // milliseconds
 
 This value controls how frequently statistics are printed to the console and (optionally) how often the life cycle progresses.
 
-#### 2. `Game.java`: make sure both statistics and life cycle use the same delay
+ ####2. Game.java: make sure both statistics and life cycle use the same delay
 
 ```java
 executorService.scheduleWithFixedDelay(
