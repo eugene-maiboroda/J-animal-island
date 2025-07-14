@@ -29,7 +29,6 @@ The simulation runs in real time using multithreading, and prints out statistics
 - `enums` — types, settings, directions
 - `GameSettings` — configurable parameters
 
----
 
 ### Simulation Parameters (in `GameSettings.java`)
 
@@ -43,7 +42,6 @@ You can configure:
 - tick duration
 - termination condition
 
----
 
 ### How to Run
 
@@ -52,7 +50,6 @@ You can configure:
 3. Run `Main.java`
 4. Observe console output of island state over time
 
----
 
 ### Output Example
 
@@ -82,7 +79,6 @@ Every simulation tick prints:
 🐁 - 111
 ```
 
----
 
 ### How to control simulation speed
 
@@ -96,7 +92,6 @@ public static final int STAT_PERIOD = 100; // milliseconds
 
 This value controls how frequently statistics are printed to the console and (optionally) how often the life cycle progresses.
 
----
 
 ### `Game.java`, make sure both statistics and life cycle use the same delay:
 
